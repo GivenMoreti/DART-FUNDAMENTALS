@@ -25,4 +25,11 @@ void main() {
   // print('Your name is '+ name);
   // print('Your name is $name');
   print(#radix);
+
+  bool isAlive = true;
+
+  // final variable is initialized when accessed.
+  final area;
+  
+  //const compile-time constant
 }

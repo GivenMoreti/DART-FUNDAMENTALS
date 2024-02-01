@@ -1,0 +1,2 @@
+All the data types in dart are objects
+int age = 10;

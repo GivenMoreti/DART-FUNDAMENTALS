@@ -30,6 +30,12 @@ void main() {
   final myConstantSet = const {"jean", "bottle", "pens"};
   // myConstantSet.add("speaker");  error
   // myConstantSet.remove("bottle"); error
+
+  //MAPS HAVE KEY- VALUE PAIRS
+  var pizzas = {"small": 19, "medium": 29, "large": 59};
+  pizzas["xlarge"] = 89;  //ADD A PIZZA.
+  print(pizzas);
+  //null is returned for item found.
 }
 
 // create function
