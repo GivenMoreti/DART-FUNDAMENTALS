@@ -1,0 +1,20 @@
+1. **Home**: 
+The home icon/button should typically take users back to the main screen of your app. It serves as a starting point for navigation and should be easily accessible from any screen.
+
+2. **Search**:
+ Include a search icon/button that allows users to search for content, products, or information within your app. This is particularly useful for apps with large amounts of content or products.
+
+3. **Profile**:
+ Provide access to user profiles where users can view and update their account information, preferences, order history, and other personalized settings.
+
+4. **Cart/Basket**:
+ If your app involves shopping or ordering products/services, include a cart or basket icon/button that allows users to view and manage items they have added to their cart.
+
+5. **Notifications**: 
+Include a notifications icon/button that alerts users to new messages, updates, promotions, or other relevant information. Users should be able to access and manage their notifications from this screen.
+
+6. **Settings**:
+ Offer a settings icon/button that provides access to app settings, preferences, language settings, and other customization options.
+
+7. **Additional Options**:
+ Depending on the nature of your app, you may include additional options such as Favorites, Orders, Deals, Explore, or Help.

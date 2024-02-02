@@ -5,6 +5,10 @@ void main() {
 
   int vol = findVolume(5, width: 2, height: 3); //observe named params
   print(vol);
+
+  // default named params example
+  int defaultArea = findAreaDefaultParams(8);
+  print("$defaultArea M2");   //8 * 4 = 32
 }
 
 // functiona; expressions
@@ -20,6 +24,13 @@ getCities(String city1, [String? city2]) {
 
 //[String? city2]) is a null param
 // optional named parameters.
-int findVolume(int length, {required int width, required int height}) {
+int findVolume(int length, { required int width,required int height}) {
   return length * width * height;
+}
+
+//optional default params
+//assign default values to params.
+
+int findAreaDefaultParams(int length, {int width = 4}) {
+  return length * width;
 }
