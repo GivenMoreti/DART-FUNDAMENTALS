@@ -1,4 +1,8 @@
 /**
+ * SYNTAX
+ * try{}on {}catch(e){} finally { };
+ * 
+ * 
  * COMMON EXCEPTIONS IN DART
  * 1. deferredLoadException -> library fails to load
  * 2. FormatException ->data type with unexpected format
@@ -14,7 +18,8 @@ void main() {
   } on IntegerDivisionByZeroException {
     //IntegerDivisionByZeroException
     print("you cant divide by zero");
-  } catch (e, s) {  //s is for stack trace
+  } catch (e, s) {
+    //s is for stack trace
     //catch all cases
     print(e);
     print(s);
