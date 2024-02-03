@@ -3,6 +3,22 @@ void main() {
 
   cookie.setHeight = 23;
   cookie.height;
+
+//static variables are accessible without creating creating a constructor.
+//obj is not created and it saves memory
+
+  print(Constants.greeting);
+  print(Constants.getAValue());
+}
+
+class Constants {
+  // static variables
+  static String greeting = "hello how are you?";
+
+  // static functions
+  static int getAValue() {
+    return 10;
+  }
 }
 
 class Cookie {
